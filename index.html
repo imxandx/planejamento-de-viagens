@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagens</title>
+    <link rel="shortcut icon" href="./image/aviao.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <h1>Im<span>Xandx</span></h1>
+            <nav class="nav-menu" id="home">
+                <div class="find">
+                    <input autocomplete="off" type="text" name="text" id="search" placeholder="Escolha sua próxima viagem">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <ul>
+                    <a class="navs" href="#home"><li class="navs">Início</li></a>
+                    <a class="navs" href="#list"><li class="navs">Viagens</li></a>
+                    <a class="navs" href="#contact"><li class="navs">Contato</li></a>
+                </ul>
+            </nav>
+            <div class="shopping">
+                <img src="image/shopping.svg">
+                <span class="quantity">0</span>
+            </div>
+        </header>
+
+        <div class="list" id="list">
+
+        </div>
+    </div>
+
+    <footer class="content-contact">
+        <div class="contact" id="contact">
+            <h2>Fale conosco!</h2>
+            <div class="info">
+                <label for=""><i class="fa-solid fa-user"></i></label>
+                <input type="text" placeholder="Seu nome">
+                <label for=""><i class="fa-solid fa-phone"></i></label>
+                <input type="number" placeholder="Seu telefone">
+                <label for=""><i class="fa-solid fa-envelope"></i></label>
+                <input type="email" placeholder="Seu e-mail">
+                <button class="btn-env" type="submit">Enviar</button>
+            </div>
+        </div>
+        <div class="reserved-rights">
+            <h3>Alexandre <span>Delaboneta</span> &copy;</h3>
+            <img src="./image/PRETO - Sem Fundo.png" alt="logo-exclusiva">
+        </div>
+    </footer>
+
+    <div class="card">
+        <h1>Carrinho</h1>
+        <ul class="listCard">
+        </ul>
+        <div class="checkOut">
+            <div class="total">0</div>
+            <div class="closeShopping">Fechar</div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
